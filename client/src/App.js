@@ -8,6 +8,8 @@ import {
 import Home from './components/Home.js'
 import './App.css';
 import './container/css/bootstrap.css'
+import HomeBody from './components/homebody';
+import Homepagedata from './components/homepagedata';
 
 class App extends Component {
     render() {
@@ -15,6 +17,8 @@ class App extends Component {
             <div>
                 <Header />
                 <Home />
+                <HomeBody/>
+                <Homepagedata/>
             </div >
         );
     }

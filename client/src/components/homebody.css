@@ -1,0 +1,104 @@
+.label-1{
+position: absolute;
+width: 228px;
+height: 44px;
+left: 606px;
+top: 714px;
+
+font-family: Proxima Nova;
+line-height: normal;
+font-size: 36px;
+text-transform: capitalize;
+
+color: #000000;
+} 
+
+.label-2{
+    position: absolute;
+width: 270px;
+height: 44px;
+left: 572px;
+top: 1085px;
+
+font-family: Proxima Nova;
+line-height: normal;
+font-size: 36px;
+text-transform: capitalize;
+
+color: #000000;
+}
+.icon-1{
+    position: absolute;
+    width: 120px;
+    height: 160px;
+    left: 410px;
+    top: 814px;    
+}
+.icon-2{
+    position: absolute;
+width: 182px;
+height: 191px;
+left: 632px;
+top: 814px;
+}
+
+.icon-3{
+    position: absolute;
+width: 131px;
+height: 160px;
+left: 899px;
+top: 814px;
+
+
+}
+
+.playButton{
+    position: absolute;
+width: 8.92px;
+height: 15px;
+left: 578px;
+top: 862px;
+}
+
+.playButton2{
+    position: absolute;
+width: 8.92px;
+height: 15px;
+left: 837px;
+top: 862px;
+}
+
+
+.itembox{
+
+}
+
+.menudiv{
+    position: absolute;
+width: 300px;
+height: 260px;
+left: 606px;
+top: 1149px;
+border: solid black;
+border-radius: 8px;
+}
+
+.menudiv2{
+    position: absolute;
+width: 300px;
+height: 260px;
+left: 1032px;
+top: 1149px;
+border: solid black;
+border-radius: 8px;
+}
+
+.menudiv3{
+    position: absolute;
+width: 300px;
+height: 260px;
+left: 102px;
+top: 1149px;
+border: solid black;
+border-radius: 8px;
+}

@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="custom-header">
+        <div className="custom-header" style={{top: 0}}>
             <div className="header-logo">
                 <img src={HeaderLogo}/>   
                 <img className="header-writeup" src={OkikeWriteUp}/>              

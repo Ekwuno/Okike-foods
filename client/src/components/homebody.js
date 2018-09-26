@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './homebody.css'
+import {NavLink} from 'react-router-dom'
+
 
 export default class HomeBody extends Component {
   render() {
@@ -11,11 +13,11 @@ export default class HomeBody extends Component {
           </div>
           <div className='cardName'>
             <h4 style={{ margin: 0 }}><b>i am</b></h4>
-            {/* <NavLink to={`/`} >
+            <NavLink to='/' >
                   <button className='btn btn-primary btn-md' style={{ float: "right" }} >Read now</button>
-              </NavLink> */}
+              </NavLink>
             <br />
-            {/* <b> {book.author} </b> */}
+            <b> i am </b>
           </div>
         </div>
       </Fragment >

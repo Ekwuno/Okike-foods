@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-// import { Link, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import Header from './Header';
 import HomeBanner from './HomeBanner';
 import './home.css'
@@ -36,25 +36,28 @@ class Home extends Component {
                 </center>
                 <center>
                     <h2> What's available </h2>
-                    </center>
+                </center>
                 <div className='bookshelf'>
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
                 </div>
                 <center>
                     <h3><b>Our Offerings</b></h3>
                     <div className='icon-pan'>
                         <div className='icon-box'>
-                            <img src={HomeBanner} alt='' />
+                            <NavLink to='/afiaNkwu'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
+                            </NavLink>
                             <p>Afia Nkwu</p>
                         </div>
                         <div className='icon-box'>
-                            <img src={HomeBanner} alt='' />
+                            <NavLink to='/fruitchef'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
+                            </NavLink>
                             <p>Fruit Chef</p>
                         </div>
                         <div className='icon-box'>
-                            <img src={HomeBanner} alt='' />
+                            <NavLink to='/olc'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
+                            </NavLink>
                             <p>OLC</p>
                         </div>
                     </div>

@@ -8,6 +8,7 @@ html{
     height: 60px;
     background: #fff;
     position: fixed;
+    top: 0;
 }
 
 .header-logo{

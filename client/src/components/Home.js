@@ -38,7 +38,7 @@ class Home extends Component {
                     <h2> What's available </h2>
                     </center>
                 <div className='bookshelf'>
-                    <HomeBody />
+                    <HomeBody container='card'/>
                     <HomeBody />
                     <HomeBody />
                 </div>

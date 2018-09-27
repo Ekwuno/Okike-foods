@@ -119,6 +119,7 @@ border-radius: 8px;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 

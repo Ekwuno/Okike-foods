@@ -16,11 +16,11 @@ class App extends Component {
                 <Switch>
                     <Fragment>
                         <Header />
+                        <Route path='/' exact component={Home} />
                         <Route path='/menu' exact component={Menu} />
                         <Route path='/fruitChef' exact component={FruitChef} />
                         <Route path='/afiaNkwu' exact component={AfiaNkwu} />
                         <Route path='/olc' exact component={Olc} />
-                        <Route path='/' exact component={Home} />
                     </Fragment>
                 </Switch>
             </BrowserRouter>

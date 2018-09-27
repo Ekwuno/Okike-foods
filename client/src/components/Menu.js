@@ -23,15 +23,15 @@ class Menu extends Component {
                 </div>
                 <div className='bookshelf'>
 
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
-                    <HomeBody />
+                    <HomeBody container='card'  />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
+                    <HomeBody container='card' />
                 </div>
             </Fragment>
         )

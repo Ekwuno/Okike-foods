@@ -9,7 +9,7 @@ import Olc from './components/Olc.js';
 import './App.css';
 import './container/css/bootstrap.css';
 import Footer from './components/footer'
-import Menu from './components/Menu'
+// import Menu from './components/Menu'
 
 class App extends Component {
     render() {

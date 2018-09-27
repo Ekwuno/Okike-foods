@@ -22,15 +22,15 @@ class Home extends Component {
                     <div className='icon-pan'>
                         <div className='icon-box'>
                             <img src={call} alt='' />
-                            <p>I am for this one</p>
+                            <p>Pick Your Meal </p>
                         </div>
                         <div className='icon-box'>
                             <img src={group} alt='' />
-                            <p>I am for this one</p>
+                            <p>Whatsapp Okike And Place Order</p>
                         </div>
                         <div className='icon-box'>
                             <img src={serving} alt='' />
-                            <p>I am for this one</p>
+                            <p>Enjoy Your Meal</p>
                         </div>
                     </div>
                 </center>
@@ -39,8 +39,8 @@ class Home extends Component {
                     </center>
                 <div className='bookshelf'>
                     <HomeBody container='card'/>
-                    <HomeBody />
-                    <HomeBody />
+                    <HomeBody  container= 'card'/>
+                    <HomeBody container= 'card' />
                 </div>
                 <center>
                     <h3><b>Our Offerings</b></h3>

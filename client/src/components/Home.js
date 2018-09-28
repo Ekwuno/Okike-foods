@@ -7,6 +7,7 @@ import HomeBody from './homebody';
 import serving from '../assets/serving-dish.svg';
 import group from '../assets/Group.svg';
 import call from '../assets/menu (2).svg'
+import Footer from './footer';
 
 class Home extends Component {
     constructor() {
@@ -62,8 +63,8 @@ class Home extends Component {
                         </div>
                     </div>
                 </center>
-
-            </Fragment>         
+                <Footer />
+            </Fragment>
         )
     }
 }

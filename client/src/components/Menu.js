@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
-// import Banner from 
 import './menu.css';
 import HomeBody from './homebody'
+import Footer from './footer';
 
 
 class Menu extends Component {
@@ -22,7 +22,6 @@ class Menu extends Component {
                     </div>
                 </div>
                 <div className='bookshelf'>
-
                     <HomeBody container='card' />
                     <HomeBody container='card' />
                     <HomeBody container='card' />
@@ -33,6 +32,7 @@ class Menu extends Component {
                     <HomeBody container='card' />
                     <HomeBody container='card' />
                 </div>
+                <Footer />
             </Fragment>
         )
     }

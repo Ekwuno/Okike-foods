@@ -14,7 +14,7 @@ export default class HomeBody extends Component {
           <div className='cardName'>
             <h4 style={{ margin: 0 }}><b>i am</b></h4>
             <NavLink to='/' >
-                  <button className='btn btn-success btn-md' style={{ float: "right", borderRadius: 10 }} >Read now</button>
+                  <button className='btn btn-success btn-md' style={{ float: "right", borderRadius: 10 }} >Order Now</button>
               </NavLink>
             <br />
             <b> i am </b>

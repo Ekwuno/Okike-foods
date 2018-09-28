@@ -20,6 +20,7 @@ class App extends Component {
                         <Route path='/order/:id' exact component={Order} />
                         <Footer />
                     </Fragment>
+                    
                 </Switch>
             </BrowserRouter>
         );

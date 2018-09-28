@@ -46,24 +46,24 @@ class Home extends Component {
                     <h3><b>Our Offerings</b></h3>
                     <div className='icon-pan'>
                         <div className='icon-box'>
-                            <NavLink to='/afiaNkwu'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
+                            <NavLink to='/order/afiaNkwu'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
                             </NavLink>
                             <p>Afia Nkwu</p>
                         </div>
                         <div className='icon-box'>
-                            <NavLink to='/fruitchef'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
+                            <NavLink to='/order/fruitChef'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
                             </NavLink>
                             <p>Fruit Chef</p>
                         </div>
                         <div className='icon-box'>
-                            <NavLink to='/olc'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
+                            <NavLink to='/order/olc'> <img style={{ width: '100%', height: '100%' }} src={HomeBanner} alt='' />
                             </NavLink>
                             <p>OLC</p>
                         </div>
                     </div>
                 </center>
 
-            </Fragment>
+            </Fragment>         
         )
     }
 }

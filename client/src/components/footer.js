@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div style={{ padding: '0 30px' }}>
+        <div className='footerStyle'>
             <div style={{ float: 'left' }}>
                 &copy; 2018 Okike Foods. All Rights Reserved
             </div>

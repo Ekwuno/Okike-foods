@@ -12,7 +12,7 @@ const HomeBanner = () => {
     return (
         <div className="home-banner">
             <div className="home-left-banner">
-                <img src={Banner} />
+                <img src={Banner} alt='' />
             </div>
             <div className="home-right-banner">
                 <p id="home-whatsapp-text">WHATSAPP</p>
@@ -26,12 +26,12 @@ const HomeBanner = () => {
                     <button onClick={() => { window.open(`https://wa.me/15551234567?`) }} className="btn btn-success">Order Now</button>
                 </div>
                 <div className="home-contact-details">
-                    <img src={WhatsappLogo} />
+                    <img alt='' src={WhatsappLogo} />
                     <p>+2430000000000</p>
                     <p>info@okikefoods.ng</p>
-                    <img src={FacebookLogo} />
-                    <img src={TwitterLogo} />
-                    <img src={InstaLogo} />
+                    <img alt='' src={FacebookLogo} />
+                    <img alt='' src={TwitterLogo} />
+                    <img alt='' src={InstaLogo} />
                 </div>
             </div>
         </div>

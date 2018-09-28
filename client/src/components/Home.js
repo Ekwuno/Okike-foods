@@ -10,10 +10,6 @@ import call from '../assets/menu (2).svg'
 import Footer from './footer';
 
 class Home extends Component {
-    constructor() {
-        super();
-    }
-
     render() {
         return (
             <Fragment>

@@ -6,7 +6,6 @@ import Menu from './components/Menu.js';
 import Order from './components/Order.js';
 import './App.css';
 import './container/css/bootstrap.css';
-import Footer from './components/footer'
 
 class App extends Component {
     render() {

@@ -18,9 +18,7 @@ class App extends Component {
                         <Route path='/' exact component={Home} />
                         <Route path='/menu' exact component={Menu} />
                         <Route path='/order/:id' exact component={Order} />
-                        <Footer />
                     </Fragment>
-                    
                 </Switch>
             </BrowserRouter>
         );

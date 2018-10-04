@@ -31,3 +31,17 @@
     width: 100%;
     /* border: 1px solid darkgrey */
 }
+
+@media(max-width:417px){
+    .MenuRecipe {
+        background-color: white;
+        margin: auto;
+        padding: 20px;
+        width: 93%;
+        border-radius: 4px;
+        height: 279px;
+        /* border: 1px solid darkgrey; */
+        margin-top: 10pc;
+        box-shadow: 2px 4px 16px 2px rgba(0,0,0,0.4);
+    }
+}

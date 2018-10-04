@@ -28,3 +28,25 @@
     text-transform: capitalize;
     color: #000000;
 }
+
+@media(max-width:417px){
+    .icon-box > p {
+        font-family: Proxima Nova;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 5px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    
+    .icon-box {
+
+        height: 104px;
+        width: 19%;
+        /* border: 1px solid darkgrey; */
+        margin-right: 28px;
+        margin-bottom: 50px;
+    
+    }
+}

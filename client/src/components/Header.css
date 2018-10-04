@@ -66,3 +66,15 @@ html{
     margin-top: 10pc;
     box-shadow: 2px 4px 16px 2px rgba(0,0,0,0.4);
 }
+
+@media(max-width:417px){
+    .green {
+
+        width: 211px;
+        height: 130px;
+        position: fixed;
+        right: 0px;
+        top: 0;
+    
+    }
+}

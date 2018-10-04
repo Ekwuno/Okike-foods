@@ -14,8 +14,8 @@ class Menu extends Component {
 
                     </div>
                     <div className='MenuRecipeDetail'>
-                        <h3><b>Breakfast Special</b></h3><br /><br />
-                        <p>Isnt she lovely, Haalleluyah? <br />
+                        <h3><b>Breakfast Special</b></h3>
+                        <p>Isnt she lovely, Haalleluyah? 
                             she says she loves me, Halleluyah<br />
                             isnt she lovely, Drille la Simi</p>
                         <button className='btn btn-success btn-md' style={{ float: 'right' }}>Order Now</button>

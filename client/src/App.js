@@ -1,21 +1,25 @@
-import React, { Component } from 'react';
-// import logo from './logo.svg';
-import Header from './components/Header'
-import {
-    BrowserRouter as Router,
-    Route
-} from 'react-router-dom';
-import Home from './components/Home.js'
+import React, { Component, Fragment } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/Home.js';
+import Menu from './components/Menu.js';
+import Order from './components/Order.js';
 import './App.css';
-import './container/css/bootstrap.css'
+import './container/css/bootstrap.css';
 
 class App extends Component {
     render() {
         return (
-            <div>
-                <Header />
-                <Home />
-            </div >
+            <BrowserRouter>
+                <Switch>
+                    <Fragment>
+                        <Header />
+                        <Route path='/' exact component={Home} />
+                        <Route path='/menu' exact component={Menu} />
+                        <Route path='/order/:id' exact component={Order} />
+                    </Fragment>
+                </Switch>
+            </BrowserRouter>
         );
     }
 }

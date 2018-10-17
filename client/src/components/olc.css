@@ -1,0 +1,56 @@
+
+.olc-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 4% 0px 0px 25%;
+    background: url(../assets/background.png);
+    /* z-index: 0; */
+}
+.olc-wrapper > h1{
+    width: 70%;
+    margin: 7% 0px 90px 0px;
+    font-family: Proxima Nova;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.olc-form{
+    width: 70%;
+    padding: 0px 0px 100px 0px;
+}
+
+.form-desc{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.form-select{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.olc-input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.olc-button{
+    font-family: Proxima Nova;
+    font-size: 18px !important;
+    color: #F6F6F6 !important;
+    background: #25D366 !important;
+    border-radius: 10px !important;
+    margin: 5px 0px 0px 43%;
+}

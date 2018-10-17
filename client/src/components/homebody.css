@@ -1,0 +1,153 @@
+.label-1{
+position: absolute;
+width: 228px;
+height: 44px;
+left: 606px;
+top: 714px;
+
+font-family: Proxima Nova;
+line-height: normal;
+font-size: 36px;
+text-transform: capitalize;
+
+color: #000000;
+} 
+
+.label-2{
+    position: absolute;
+width: 270px;
+height: 44px;
+left: 572px;
+top: 1085px;
+
+font-family: Proxima Nova;
+line-height: normal;
+font-size: 36px;
+text-transform: capitalize;
+
+color: #000000;
+}
+.icon-1{
+    position: absolute;
+    width: 120px;
+    height: 160px;
+    left: 410px;
+    top: 814px;    
+}
+.icon-2{
+    position: absolute;
+width: 182px;
+height: 191px;
+left: 632px;
+top: 814px;
+}
+
+.icon-3{
+    position: absolute;
+width: 131px;
+height: 160px;
+left: 899px;
+top: 814px;
+
+
+}
+
+.playButton{
+    position: absolute;
+width: 8.92px;
+height: 15px;
+left: 578px;
+top: 862px;
+}
+
+.playButton2{
+    position: absolute;
+width: 8.92px;
+height: 15px;
+left: 837px;
+top: 862px;
+}
+
+
+/* .itembox{
+
+} */
+
+.menudiv{
+    position: absolute;
+width: 300px;
+height: 260px;
+left: 606px;
+top: 1149px;
+border: solid black;
+border-radius: 8px;
+}
+
+.menudiv2{
+    position: absolute;
+width: 300px;
+height: 260px;
+left: 1032px;
+top: 1149px;
+border: solid black;
+border-radius: 8px;
+}
+
+.menudiv3{
+    position: absolute;
+width: 300px;
+height: 260px;
+left: 102px;
+top: 1149px;
+border: solid black;
+border-radius: 8px;
+}
+
+.card {
+    box-shadow: 2px 4px 16px 2px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    height: 350px;
+    width: 26%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+
+.cardImage {
+    height: 80%;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+}
+
+
+.cardName {
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+}
+
+@media (max-width: 417px){
+
+    .card {
+        box-shadow: 2px 4px 16px 2px rgba(0,0,0,0.4);
+        border-radius: 4px;
+        height: 350px;
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+    
+
+
+}

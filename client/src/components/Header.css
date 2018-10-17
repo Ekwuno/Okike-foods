@@ -8,6 +8,7 @@ html{
     height: 60px;
     background: #fff;
     position: fixed;
+    top: 0;
 }
 
 .header-logo{
@@ -44,4 +45,36 @@ html{
     border: none;
     background: #F7F7F6;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.footerStyle {
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0;
+    padding: 0 30px;
+    margin-top: 30px;
+    background-color: transparent
+}
+
+.specialCard {
+    width: 60%;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 10pc;
+    box-shadow: 2px 4px 16px 2px rgba(0,0,0,0.4);
+}
+
+@media(max-width:417px){
+    .green {
+
+        width: 211px;
+        height: 130px;
+        position: fixed;
+        right: 0px;
+        top: 0;
+    
+    }
 }

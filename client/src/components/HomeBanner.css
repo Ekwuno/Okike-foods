@@ -5,7 +5,7 @@ html{
 .home-banner{
     width: 100%;
     padding-top: 70px;
-
+    margin-bottom: 90px;
 }
 
 .home-banner > div{
@@ -88,4 +88,43 @@ html{
 
 .home-contact-details :first-child  {
     margin-left: 0px;
+}
+
+@media(max-width : 417px){
+    .home-left-banner{
+        width: 100%;
+        float: left;
+        margin-top:30px
+    }
+
+    .home-left-banner > img {
+
+        width: 100%;
+        height: 554px;
+        /* opacity: 0.1; */
+    
+    }
+    .home-right-banner {
+
+        /* height: 500px; */
+        width: 100%;
+    
+    }
+    .home-right-banner > h2 {
+
+        color: #000;
+        font-weight: bold;
+        font-size: 52px;
+        /* margin: -288px 0px 0px 4px; */
+    
+    }
+
+    .home-banner > div {
+
+        /* display: inline-block; */
+        padding: 0;
+        height: 565px;
+    
+    }
+    
 }

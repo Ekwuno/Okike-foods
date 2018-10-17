@@ -1,0 +1,52 @@
+.icon-box{
+    height: 126px;
+    width: 10%;
+    /* border: 1px solid darkgrey; */
+    margin-right: 50px; 
+    margin-bottom: 50px;
+}
+
+.icon-pan {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px
+}
+
+.icon-box > img:nth-child(n) {
+    height: 100%;
+    width: 100%;
+}
+
+.icon-box > p {
+    font-family: Proxima Nova;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+@media(max-width:417px){
+    .icon-box > p {
+        font-family: Proxima Nova;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 5px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    
+    .icon-box {
+
+        height: 104px;
+        width: 19%;
+        /* border: 1px solid darkgrey; */
+        margin-right: 28px;
+        margin-bottom: 50px;
+    
+    }
+}
